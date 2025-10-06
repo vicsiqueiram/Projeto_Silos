@@ -1,0 +1,14 @@
+# Arquivos binários principais do CODESYS
+*.project
+*.project.~u
+*.opt
+*.opt.bak
+
+# Arquivos de cache, build e temporários
+*.dep
+*.crc
+*.xml.bak
+/Temp/
+
+# Se você já tiver criado o projeto SCADA (AVEVA Edge), ignore a pasta:
+# /Projeto_SCADA_AVEVA/
