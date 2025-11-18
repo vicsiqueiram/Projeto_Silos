@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.11.0</Version>
+    <SymbolConfigObject version="3.5.11.10" runtimeid="3.5.11.40" libversion="3.5.11.0" compiler="3.5.11.40" lmm="3.5.11.40" profile="CODESYS V3.5 SP11 Patch 4+" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Projeto_Silos" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL_IO">
+        <Node name="BUZINA" type="T_BOOL" access="ReadWrite" />
+        <Node name="LS_01" type="T_BOOL" access="ReadWrite" />
+        <Node name="LS_02" type="T_BOOL" access="ReadWrite" />
+        <Node name="LS_03" type="T_BOOL" access="ReadWrite" />
+        <Node name="LS_04" type="T_BOOL" access="ReadWrite" />
+        <Node name="M_CT_01" type="T_BOOL" access="ReadWrite" />
+        <Node name="TR_BW" type="T_BOOL" access="ReadWrite" />
+        <Node name="TR_DIST" type="T_REAL" access="ReadWrite" />
+        <Node name="TR_FW" type="T_BOOL" access="ReadWrite" />
+        <Node name="TR_VEL" type="T_REAL" access="ReadWrite" />
+        <Node name="WT_01" type="T_REAL" access="ReadWrite" />
+      </Node>
+      <Node name="GVL_SCADA">
+        <Node name="EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_LS_01" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_LS_02" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_LS_03" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_LS_04" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV_01" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV_02" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV_03" type="T_BOOL" access="ReadWrite" />
+        <Node name="FV_04" type="T_BOOL" access="ReadWrite" />
+        <Node name="LIGA_AUTO" type="T_BOOL" access="ReadWrite" />
+        <Node name="LT_01" type="T_REAL" access="ReadWrite" />
+        <Node name="LT_02" type="T_REAL" access="ReadWrite" />
+        <Node name="LT_03" type="T_REAL" access="ReadWrite" />
+        <Node name="LT_04" type="T_REAL" access="ReadWrite" />
+        <Node name="PESO_SL_01" type="T_REAL" access="ReadWrite" />
+        <Node name="PESO_SL_02" type="T_REAL" access="ReadWrite" />
+        <Node name="PESO_SL_03" type="T_REAL" access="ReadWrite" />
+        <Node name="PESO_SL_04" type="T_REAL" access="ReadWrite" />
+        <Node name="POS_TRIPPER" type="T_REAL" access="ReadWrite" />
+        <Node name="REARME" type="T_BOOL" access="ReadWrite" />
+        <Node name="STATUS_EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="STATUS_FALHA" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
