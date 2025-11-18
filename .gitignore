@@ -1,6 +1,4 @@
 # Arquivos binários principais do CODESYS
-*.project
-*.project.~u
 *.opt
 *.opt.bak
 
