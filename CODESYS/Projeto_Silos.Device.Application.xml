@@ -7,6 +7,7 @@
   </Header>
   <TypeList>
     <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
     <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
   </TypeList>
   <NodeList>
@@ -25,6 +26,7 @@
         <Node name="WT_01" type="T_REAL" access="ReadWrite" />
       </Node>
       <Node name="GVL_SCADA">
+        <Node name="carregando" type="T_BOOL" access="ReadWrite" />
         <Node name="EMG" type="T_BOOL" access="ReadWrite" />
         <Node name="FALHA_LS_01" type="T_BOOL" access="ReadWrite" />
         <Node name="FALHA_LS_02" type="T_BOOL" access="ReadWrite" />
@@ -45,6 +47,7 @@
         <Node name="PESO_SL_04" type="T_REAL" access="ReadWrite" />
         <Node name="POS_TRIPPER" type="T_REAL" access="ReadWrite" />
         <Node name="REARME" type="T_BOOL" access="ReadWrite" />
+        <Node name="siloAlvo" type="T_INT" access="ReadWrite" />
         <Node name="STATUS_EMG" type="T_BOOL" access="ReadWrite" />
         <Node name="STATUS_FALHA" type="T_BOOL" access="ReadWrite" />
       </Node>
